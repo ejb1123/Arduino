@@ -1,2 +1,2 @@
 language: java
-ant build/build.xml
+ant run
