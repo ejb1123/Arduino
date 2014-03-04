@@ -373,16 +373,6 @@
     </exec>
   </target>
   
-  <target name="linux32-run" depends="linux32-build" 
-	  description="Run Linux (32-bit) version">
-    <exec executable="./linux/work/arduino" spawn="false"/>
-  </target>
-  
-  <target name="linux64-run" depends="linux64-build" 
-	  description="Run Linux (64-bit) version">
-    <exec executable="./linux/work/arduino" spawn="false"/>
-  </target>
-
   <target name="linux-dist" depends="build" 
 	  description="Build .tar.gz of linux version">
 
